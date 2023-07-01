@@ -1,0 +1,39 @@
+header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.hover-effect:hover {
+  color: red;
+  background-color: yellow;
+}
